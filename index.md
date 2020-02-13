@@ -5,8 +5,8 @@ include: workshop
 # location and address
 # you can also link to a map using e.g. openstreetmap, for example:
 # location: "<a https://www.openstreetmap.org/node/1771739362">Teknikringen 14, 11428 Stockholm</a>
-location: 'Rooms 1E425 (day 1) and 1E423 (day 2), <a href="https://www.kau.se/om-universitetet/kontakt/besok-oss/campuskartor"> Karlstads Universitet'    
-address: "Universitetsgatan"
+location: <a href="https://www.kau.se/om-universitetet/kontakt/besok-oss/campuskartor"> Karlstads Universitet, Rooms 1E425 (day 1) and 1E423 (day 2)</a>
+address: "Universitetsgatan, Karlstad"
 city: Karlstad
 
 # date and time
@@ -73,6 +73,6 @@ schedule:
   - date: Day 2
     morning:
       - time: 9:00 - 12:00
-        title: Collaborative distributed version control 1/2 (TBA)
+        title: Collaborative distributed version control 1/2
         url: https://coderefinery.github.io/git-collaborative/
 ---
