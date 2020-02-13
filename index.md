@@ -5,30 +5,27 @@ include: workshop
 # location and address
 # you can also link to a map using e.g. openstreetmap, for example:
 # location: "<a https://www.openstreetmap.org/node/1771739362">Teknikringen 14, 11428 Stockholm</a>
-location: "Room X, Department of Y, University of Z"    
-address: "ADDRESS"
-city: CITY
+location: 'Rooms 1E425 (day 1) and 1E423 (day 2), <a href="https://www.kau.se/om-universitetet/kontakt/besok-oss/campuskartor"> Karlstads Universitet'    
+address: "Universitetsgatan"
+city: Karlstad
 
 # date and time
 time: "9:00 - 17:00"    
-dates: "October 16-18, 2019"   
+dates: "May 6-7, 2020"
 
 # Add link to registration form here and specify when the registration opens and whether it is closed
-registration_form: 
-registration_open_date: September 30, 2019
-registration_is_closed: true
+registration_form: https://indico.neic.no/event/125/
+registration_open_date: February 17, 2020
+registration_is_closed: false
 
 # names of instructors and helpers
 instructors: 
- - Instructor 1
- - Instructor 2
- - Instructor 3
+ - TBD
 helpers: 
- - Helper 1
- - Helper 2
+ - TBD
 
 # contact email address
-contact: instructor1@university.com
+contact: kthw@kth.se
 
 # normally no need to modify this
 goals:
@@ -53,10 +50,6 @@ software:
     url: https://coderefinery.github.io/installation/python/
   - title: (optional) Visual diff tools
     url: https://coderefinery.github.io/installation/difftools/
-  - title: Jupyter and JupyterLab
-    url: https://coderefinery.github.io/installation/jupyter
-  - title: Snakemake
-    url: https://coderefinery.github.io/installation/snakemake
   - title: Accounts
     url: https://coderefinery.github.io/installation/#accounts
 
@@ -65,50 +58,21 @@ schedule:
   - date: Day 1
     morning:
       - time: 9:00 - 9:30
-        title: Welcome and practical information (Instructor 1)
+        title: Welcome and practical information
         url: https://github.com/coderefinery/workshop-intro/blob/master/README.md
       - time: 9:30 - 12:00
-        title: Introduction to version control - part 1/2 (Instructor 1)
+        title: Introduction to version control - part 1/2 
         url: https://coderefinery.github.io/git-intro/
     afternoon:
       - time: 13:00 - 15:00
-        title: Introduction to version control - part 2/2 (Instructor 2)
+        title: Introduction to version control - part 2/2
         url: https://coderefinery.github.io/git-intro/
       - time: 15:30 - 17:00
-        title: Social coding and open software (Instructor 2)
-        url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
+        title: TBD
+        url: 
   - date: Day 2
     morning:
-      - time: 9:00 - 10:30
-        title: Modular code development (TBA)
-        url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md
-      - time: 11:00 - 12:00
+      - time: 9:00 - 12:00
         title: Collaborative distributed version control 1/2 (TBA)
         url: https://coderefinery.github.io/git-collaborative/
-    afternoon:
-      - time: 13:00 - 14:30
-        title: Collaborative distributed version control 2/2 (TBA)
-        url: https://coderefinery.github.io/git-collaborative/
-      - time: 15:00-17:00
-        title: Reproducible research and FAIR data (TBA)
-        url: https://coderefinery.github.io/reproducible-research/
-  - date: Day 3
-    morning:
-      - time: 9:00 - 10:30
-        title: Documentation (TBA)
-        url: https://coderefinery.github.io/documentation/
-      - time: 11:00 - 12:00
-        title: Automated testing part 1/2 (TBA)
-        url: https://coderefinery.github.io/testing/
-    afternoon:
-      - time: 13:00 - 14:00
-        title: Automated testing part 2/2 (TBA)
-        url: https://coderefinery.github.io/testing/
-      - time: 14:30 - 16:30
-        title: Jupyter (TBA)
-        url: https://coderefinery.github.io/jupyter/
-      - time: 16:30 - 17:00
-        title: Concluding remarks and where to go from here (TBA)
-        url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
-
 ---
