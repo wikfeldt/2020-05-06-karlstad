@@ -5,9 +5,7 @@ include: workshop
 # location and address
 # you can also link to a map using e.g. openstreetmap, for example:
 # location: "<a https://www.openstreetmap.org/node/1771739362">Teknikringen 14, 11428 Stockholm</a>
-location: <a href="https://www.kau.se/om-universitetet/kontakt/besok-oss/campuskartor"> Karlstads Universitet, Rooms 1E425 (day 1) and 1E423 (day 2)</a>
-address: "Universitetsgatan, Karlstad"
-city: Karlstad
+location: Online Zoom room
 
 # date and time
 time: "9:00 - 17:00"    
@@ -20,7 +18,8 @@ registration_is_closed: false
 
 # names of instructors and helpers
 instructors: 
- - TBD
+ - Raphaela Heil
+ - Thor Wikfeldt
 helpers: 
  - TBD
 
