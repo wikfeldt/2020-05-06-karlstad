@@ -20,8 +20,9 @@ registration_is_closed: false
 instructors: 
  - Raphaela Heil
  - Thor Wikfeldt
+ - Pavlin Mitev
 helpers: 
- - TBD
+ - Diana Iusan
 
 # contact email address
 contact: kthw@kth.se
@@ -57,21 +58,18 @@ schedule:
   - date: Day 1
     morning:
       - time: 9:00 - 9:30
-        title: Welcome and practical information
+        title: Welcome and practical information (Thor)
         url: https://github.com/coderefinery/workshop-intro/blob/master/README.md
       - time: 9:30 - 12:00
-        title: Introduction to version control - part 1/2 
+        title: Introduction to version control - part 1/2 (Raphaela)
         url: https://coderefinery.github.io/git-intro/
     afternoon:
-      - time: 13:00 - 15:00
-        title: Introduction to version control - part 2/2
+      - time: 13:00 - 16:00
+        title: Introduction to version control - part 2/2 (Pavlin)
         url: https://coderefinery.github.io/git-intro/
-      - time: 15:30 - 17:00
-        title: TBD
-        url: 
   - date: Day 2
     morning:
       - time: 9:00 - 12:00
-        title: Collaborative distributed version control 1/2
+        title: Collaborative distributed version control 1/2 (Thor)
         url: https://coderefinery.github.io/git-collaborative/
 ---
