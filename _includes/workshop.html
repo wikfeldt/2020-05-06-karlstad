@@ -191,4 +191,18 @@
       </ul>
     </div>
   </div>
+  
+  {% capture include_questions %}{% include_relative questions.md %}{% endcapture %}
+  <div class="column">
+    <h3>Questions and answers</h3>
+    <div class="col-sm-10">
+      <div class="card bg-light sm-10">
+        <div class="card-body">
+          {{ include_questions | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </div>
